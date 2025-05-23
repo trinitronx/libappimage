@@ -108,8 +108,8 @@ if (NOT LIBAPPIMAGE_SHARED_ONLY)
 
         ExternalProject_Add(
             XdgUtils-EXTERNAL
-            GIT_REPOSITORY https://github.com/azubieta/xdg-utils-cxx.git
-            GIT_TAG master
+            GIT_REPOSITORY https://github.com/trinitronx/xdg-utils-cxx.git
+            GIT_TAG bump-min-cmake-ver-3.6
             GIT_SHALLOW On
             CMAKE_ARGS
             -DCMAKE_POSITION_INDEPENDENT_CODE=On
